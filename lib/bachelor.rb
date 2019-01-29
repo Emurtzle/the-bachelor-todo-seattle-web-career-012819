@@ -44,5 +44,8 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  def counter = 0
+  counter = 0
+  age_sum = 0
+  
+  binding.pry
 end
