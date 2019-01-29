@@ -16,8 +16,6 @@ def get_contestant_name(data, occupation)
         p1 = person
       end
     end
-  end
-  binding.pry
   return p1["name"]
 end
 
