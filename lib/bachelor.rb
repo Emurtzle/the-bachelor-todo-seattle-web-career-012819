@@ -40,7 +40,6 @@ def get_occupation(data, hometown)
         return person["occupation"]
       end
     end
-    binding.pry
   end
 end
 
