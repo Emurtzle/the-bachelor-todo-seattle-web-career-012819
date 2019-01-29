@@ -10,7 +10,7 @@ end
 
 def get_contestant_name(data, occupation)
   p1 = nil
-  p1 = data.each do |season, season_data|
+  data.each do |season, season_data|
     season_data.each do |person|
       if person["occupation"].include?(occupation)
         p1 = person
